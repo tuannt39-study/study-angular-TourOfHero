@@ -4,8 +4,7 @@ import { Hero } from './hero';
 
 @Component({
     selector: 'hero-detail',
-    templateUrl: './hero.component.html',
-    styleUrls: ['./app.component.css']
+    templateUrl: './hero-detail.component.html'
   })
 
 export class HeroDetailComponent {
