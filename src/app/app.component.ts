@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
-
-import { Hero } from './hero';
-import { HeroService } from './hero.service';
+import { Component } from '@angular/core';
 
 @Component({
+  // set the source of the base address for module-relative URLs such as the templateUrl
+  moduleId: module.id,
+  // the HTML tag that the template will be inserted into
   selector: 'app-root',
-  templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  providers: [HeroService]
+  templateUrl: './app.component.html'
 })
-
 export class AppComponent {
   title = 'Tour of Heroes';
 }
+
